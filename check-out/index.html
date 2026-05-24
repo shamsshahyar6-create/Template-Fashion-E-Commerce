@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Check-Out</title>
+  <link href="/src/output.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body class="bg-gray-100 font-PlayfairDisplay">
+
+    
+      <div class="w-full mt-20 mx-auto [@media(min-width:360px)]:mx-auto [@media(min-width:360px)]:p-8">
+        
+        <div class="p-6 flex justify-around gap-4 2  [@media(min-width:360px)]:flex-col  [@media(max-width:360px)]:items-center lg:grid lg:grid-cols-3">
+
+        <div class="w-1/2 flex flex-col gap-8 [@media(min-width:360px)]:w-full lg:col-span-2">
+        <div class="logo">
+        <a href=""><p class="text-6xl"><span class="text-amber-800">M</span>odeva</p></a>
+        </div>
+            <p class="text-6xl ">CHECKOUT FORM</p>
+
+            <div class="flex gap-2 justify-around">
+                <div class="add w-10 h-10 rounded-full p-2 bg-gray-300 text-amber-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#622B14" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-amber-800">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </div>
+                <div class="w-40 h-2 bg-gray-200 mt-4 rounded-2xl">
+                </div>
+                <div class="w-10 h-10 rounded-full p-2 border border-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                    </svg>
+                </div>
+                <div class="w-40 h-2 bg-gray-200 mt-4 rounded-2xl">
+                </div>
+
+                <div class="w-10 h-10 rounded-full p-2 border border-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                </div>
+
+            </div>
+            <div class="flex justify-around gap-8"> 
+                <div class="flex flex-col">
+                    <p class="text-gray-400">Step 1</p>
+                    <p class="text-1xl text-orange-500">PERSONAL INFO</p>
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-gray-400">Step 2</p>
+                    <p class="text-1xl">SHIPPING DELIVERY </p>
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-gray-400">Step 3</p>
+                    <p class="text-1xl">CONFIRMATION</p>
+                </div>
+            </div>
+
+
+            <!-- ---------------- -->
+
+         <div class="text-2xl">
+                <p>CONTACT PERSON</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="">
+                    <p>Name</p>
+                    <input type="text " class="w-full h-10 pl-2 border border-gray-300" placeholder="Eg: John Doe">
+                </div>
+
+                <div class="">
+                    <p>PHONE NUMBER </p>
+                    <div class="flex">
+                      <select name="Number" class="h-10 w-30 border border-gray-300" id="">
+                     <option value="Number flex">
+                      <div class="flex flex-col">
+                        <p class="w-4 h-2 bg-white"></p>
+                        <p class="w-4 h-2 bg-red-500"></p>
+                      </div>
+                      <p>(+62)</p>
+                     </option>
+                    </select>
+                  <input type="text " class="w-full h-10 pl-2 border border-gray-300" placeholder="Eg: John Doe">
+                    </div>
+                </div>
+
+                <div class="">
+                    <p>EMAIL</p>
+                    <input type="text " class="w-full h-10 pl-2 border border-gray-300" placeholder="Eg: John Doe">
+                </div>
+            </div>
+
+             <div class="text-2xl">
+                <p>ADDRESS DETAIL</p>
+            </div>
+            <div class="flex flex-col gap-8">
+                <div class="">
+                    <p>ADDRESS</p>
+                    <input type="text " class="w-full h-20 pl-2 border border-gray-300" placeholder="Eg: John Doe">
+                </div>
+
+                <div class="">
+                    <p>COUNTRY </p>
+                    
+                  <div class="h-10 w-full border border-gray-300 text-end p-2 placeholder:--Choose Country--">
+                    <select name="COUNTRY" id="">
+                      <option value="">--Choose Country--</option>
+                    </select>
+                </div>
+                  </div>
+
+                <div class="flex justify-between">
+                    <div class="flex">
+                    <div class="flex flex-col">
+                        <p>STATE/ PROVINCE</p>
+                        <select name="STATE" id="" class="w-full h-10 pl-2 border border-gray-300">
+                      <option class="" value="">--Choose Province--</option>
+                    </select>
+                       
+                    </div>
+                    
+                  </div>
+                <div class="flex">
+                    <div class="flex flex-col">
+                        <p>ZIP CODE</p>
+                        <div class="flex">
+                          <select name="STATE" id="" class="w-full h-10 pl-2 border border-gray-300">
+                      <option value="">--Choose Province--</option>
+                    </select>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+
+                      <!-- go to shiping btn  -->
+
+                       <div class="flex justify-end [@media(min-width:360px)]:justify-center">
+                        <a href="../check-out/check-out shiping/index.html" w-20 class="p-4 text-center text-white bg-amber-800">
+                         CONTINUE TO SHIPPING</a>
+
+                       </div>
+                </div>
+             </div>  
+           
+         
+     
+    <div class="w-1/3 flex flex-col gap-8 [@media(min-width:360px)]:w-full lg:col-span-1">
+      <div class="flex flex-col gap-4">
+        <p class="text-4xl"> ORDER SUMMARY</p>
+        <div class="w-full h-16 flex justify-between bg-taupe-300 text-center items-center p-2">
+          <p class="">Hooray! You use promo code!</p>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </a>
+        </div>
+        <div class="flex gap-4">
+          <img class="h-40" src="../Product Details/imges/details.png" alt="">
+          <div class="flex flex-col gap-2">
+            <p class="text-3xl">
+              WHITE CASUL T-SHIRT
+            </p>
+            <p class="text-gray-300">1 X IDR 100.000</p>
+            <p class="">Please recheck the siize before send to me :)</p>
+          </div>
+          
+        </div>
+        <div class="flex gap-4">
+          <img class="h-40" src="../Product Details/imges/details.png" alt="">
+          <div class="flex flex-col gap-2">
+            <p class="text-3xl">
+              WHITE CASUL T-SHIRT
+            </p>
+            <p class="text-gray-300">1 X IDR 100.000</p>
+            <p class="">Please recheck the siize before send to me :)</p>
+          </div>
+        </div>
+
+        <div class="flex w-full justify-between">
+          <p class="text-gray-400">Subtotal</p>
+          <p class="text-gray-400">IDR 300.000</p>
+        </div>
+        <div class="flex w-full justify-between">
+          <p class="text-gray-400">Voucher (50KDISCOUNT)</p>
+          <p class=" text-red-600">IDR 50.000</p>
+        </div>
+        <div class="flex w-full justify-between">
+          <p class="text-gray-400">Voucher (50KDISCOUNT)</p>
+          <p class="text-gray-400">IDR -</p>
+        </div>
+        <div class="flex w-full justify-between">
+          <p class="">Total</p>
+          <p class="">IDR 250.000</p>
+        </div>
+      </div>
+    </div>
+    </div>
+ </div>
+
+</body>
+</html>

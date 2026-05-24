@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/static/PlayfairDisplay-Medium.ttf");
+  font-weight: 400;
+}
+
+@theme {
+  --font-PlayfairDisplay: "PlayfairDisplay", sans-serif;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts//Lato2OFLWeb/Lato/fonts/Lato-Light.ttf");
+  font-weight: 400;
+}
+@theme {
+  --font-Lato: "Lato", sans-serif;
+}
