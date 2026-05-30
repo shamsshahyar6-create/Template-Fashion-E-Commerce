@@ -759,6 +759,12 @@
   .bg-\[url\(\'\/imgs\/hero\.jpg\'\)\] {
     background-image: url('/imgs/hero.jpg');
   }
+  .bg-\[url\(\'imgs\/hero\.jpg\'\)\] {
+    background-image: url('imgs/hero.jpg');
+  }
+  .bg-\[url\(\/imgs\/hero\.jpg\)\] {
+    background-image: url(/imgs/hero.jpg);
+  }
   .bg-\[url\(\/imgs\/login\.jpg\)\] {
     background-image: url(/imgs/login.jpg);
   }
@@ -830,6 +836,9 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
