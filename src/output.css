@@ -60,8 +60,6 @@
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
-    --text-8xl: 6rem;
-    --text-8xl--line-height: 1;
     --text-9xl: 8rem;
     --text-9xl--line-height: 1;
     --font-weight-thin: 100;
@@ -753,17 +751,41 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\.\/imgs\/hero\.jpg\'\)\] {
-    background-image: url('./imgs/hero.jpg');
+  .bg-\[url\(\'\.\.\/imgs\/hero\.jpg\'\)\] {
+    background-image: url('../imgs/hero.jpg');
   }
-  .bg-\[url\(\'\/imgs\/hero\.jpg\'\)\] {
-    background-image: url('/imgs/hero.jpg');
+  .bg-\[url\(\'\.\.\/imgs\/main-01\.jpg\'\)\] {
+    background-image: url('../imgs/main-01.jpg');
   }
-  .bg-\[url\(\'imgs\/hero\.jpg\'\)\] {
-    background-image: url('imgs/hero.jpg');
+  .bg-\[url\(\'\.\.\/imgs\/main-02\.jpg\'\)\] {
+    background-image: url('../imgs/main-02.jpg');
   }
-  .bg-\[url\(\/imgs\/hero\.jpg\)\] {
-    background-image: url(/imgs/hero.jpg);
+  .bg-\[url\(\'\.\.\/imgs\/main-03\.jpg\'\)\] {
+    background-image: url('../imgs/main-03.jpg');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/man-01\.png\'\)\] {
+    background-image: url('../imgs/man-01.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/man-02\.png\'\)\] {
+    background-image: url('../imgs/man-02.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-01\.png\'\)\] {
+    background-image: url('../imgs/woman-01.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-02\.png\'\)\] {
+    background-image: url('../imgs/woman-02.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-03\.png\'\)\] {
+    background-image: url('../imgs/woman-03.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-04\.png\'\)\] {
+    background-image: url('../imgs/woman-04.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-05\.png\'\)\] {
+    background-image: url('../imgs/woman-05.png');
+  }
+  .bg-\[url\(\'\.\.\/imgs\/woman-8\.png\'\)\] {
+    background-image: url('../imgs/woman-8.png');
   }
   .bg-\[url\(\/imgs\/login\.jpg\)\] {
     background-image: url(/imgs/login.jpg);
@@ -836,9 +858,6 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
-  }
-  .object-cover {
-    object-fit: cover;
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);

@@ -33,8 +33,7 @@
 
     <!-- Header  -->
 
-<header class="h-screen w-full bg-cover bg-center bg-no-repeat overflow-x-hidden"
-        style="background-image: url('./imgs/hero.jpg');">
+<header class="h-screen w-full bg-cover bg-center bg-no-repeat overflow-x-hidden  bg-[url('../imgs/hero.jpg')] ">
        <div class="flex  items-center justify-around flex-wrap  gap-6 h-auto  [@media(max-width:330px)]:flex-col [@media(max-width:0px)]:pt-2">
         <div class="logo ">
           <a href="index.html"><p class="logo text-[48px] font-bold text-amber-800  [@media(max-width:660px)]:w-full">M<span class="text-white">ODEVA</span></p></a>
@@ -68,7 +67,7 @@
 
             <input class="items-center rounded-[3px] w-full h-10 bg-gray-200 mx-auto pl-10  text-mauve-700 text-1xl " type="search" placeholder="searching..." />
             <div class="flex gap-6 text-white [@media(max-widt10:660px)]:justify-around [@media(max-width:660px)]:pt-4">
-              <a href="/Login page/index.html" class="">
+              <a href="/pages/login.html" class="">
                 <svg xmlns="http://www.w3.org/2000/svg" 
                   fill="none"
                    viewBox="0 0 24 24"
@@ -80,7 +79,7 @@
                     d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                 </svg>
                 </a>
-                <a href="/cart-file/index.html">
+                <a href="/pages/cart.html">
                 <svg xmlns="http://www.w3.org/2000/svg"
                  fill="none" viewBox="0 0 24 24"
                   stroke-width="1.5"
@@ -112,7 +111,7 @@
             <div class="prouduct bg-white h-50 w-50 p-4 flex flex-col gap-4 [@media(max-width:660px)]:h-37.5 [@media(max-width:660px)]:w-37.5">
               <p class="text-2xl [@media(max-width:660px)]:text-[16px]">Product Name in Here</p>
               <p class="text-gray-500">IDR 300.000</p>
-              <a href="./Product List/index.html" class="underline font-Lato"><p>SHOP NOW</p></a>
+              <a href="/pages/product-list.html" class="underline font-Lato"><p>SHOP NOW</p></a>
             </div>
           </div>
           <div class="mx-w-[200px] flex flex-wrap gap-6">
@@ -122,7 +121,7 @@
             <div class="prouduct bg-white h-50 w-50 p-4 flex flex-col gap-4 [@media(max-width:660px)]:h-37.5 [@media(max-width:660px)]:w-37.5">
               <p class="text-2xl [@media(max-width:660px)]:text-[16px]">Product Name in Here</p>
               <p class="text-gray-500">IDR 300.000</p>
-              <a href="./Product List/index.html" class="underline font-Lato"><p>SHOP NOW</p></a>
+              <a href="/pages/product-list.html" class="underline font-Lato"><p>SHOP NOW</p></a>
             </div>
           </div>
         </div>
@@ -153,18 +152,18 @@
         <div
         class="
          h-400 w-full 
-        bg-[url(/imgs/main-01.jpg)]
+        bg-[url('../imgs/main-01.jpg')]
         bg-cover
         bg-center
         bg-no-repeat
         overflow-hidden">
           <p class="text-white text-4xl f pt-50  pl-30 [@media(max-width:660px)]:text-2xl">FORMAL WOMAN</p>
         </div>
-        <div class="bg-[url(/imgs/main-02.jpg)] bg-cover bg-center bg-no-repeat h-400 max-w-full [@media(max-width:660px)]:w-93.75 [@media(min-width:360px)]:w-auto">
+        <div class="bg-[url('../imgs/main-02.jpg')]  bg-cover bg-center bg-no-repeat h-400 max-w-full [@media(max-width:660px)]:w-93.75 [@media(min-width:360px)]:w-auto">
           <p class="text-white  text-4xl  pt-60 pl-10 [@media(max-width:360px)]:text-3xl [@media(max-width:660px)]:pt-80">FORMAL MAN</p>
         </div>
         </div>
-        <div class="pt-120  bg-[url(/imgs/main-03.jpg)] bg-cover bg-center bg-no-repeat w-full h-screen [@media(max-width:606px)]:pt-80 [@media(max-width:660px)]:w-100 ">
+        <div class="pt-120  bg-[url('../imgs/main-03.jpg')] bg-cover bg-center bg-no-repeat w-full h-screen [@media(max-width:606px)]:pt-80 [@media(max-width:660px)]:w-100 ">
           <p class="text-white text-4xl  pl-24 [@media(max-width:360px)]:text-1xl [@media(max-width:606px)]:pl-0">CASUAL STYLE</p>
         </div>
        
@@ -182,7 +181,7 @@
         <div class="flex flex-col gap-4 sm:p-0">
           <div class="flex   justify-around flex-wrap sm:flex  ">
             <div class="img sm:w-full md:w-auto">
-               <div class=" rounded-[5px] h-110 w-auto bg-[url(/imgs/woman-01.png)] bg-cover overflow-hidden pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 w-auto bg-[url('../imgs/woman-01.png')] bg-cover overflow-hidden pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10 text-white  rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -200,13 +199,13 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class=" font- text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class=" font- text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/woman-02.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/woman-02.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10 text-white  rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -224,14 +223,14 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class="  text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class="  text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
           </div>
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/woman-03.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/woman-03.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10  text-white rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -249,14 +248,14 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class=" text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class=" text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
           </div>
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/woman-04.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/woman-04.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="text-white pt-2 text-1xl w-24 h-10   rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -274,7 +273,7 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class="  text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class="  text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
@@ -283,9 +282,9 @@
         
         <div class="pl-16">
           <div class="flex text-white bg-amber-900 h-auto max-w-45 rounded-md pt-2 text-2xl gap-2" >
-          <a href="./Product List/index.html" class="">SEE MORE</a>
+          <a href="/pages/product-list.html" class="">SEE MORE</a>
           <div class=" ">
-            <a href="./Product List/index.html"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 pb-2">
+            <a href="/pages/product-list.html"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 pb-2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
           </svg></a>
           </div>
@@ -308,7 +307,7 @@
         <div class=" ">
           <div class="flex justify-around sm:flex flex-wrap  ">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/man-01.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/man-01.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10 text-white  rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -326,7 +325,7 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class="text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class="text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
@@ -337,7 +336,7 @@
 
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full bg-[url(/imgs/woman-05.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full bg-[url('../imgs/woman-05.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10 text-white  rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -355,7 +354,7 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class=" text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class=" text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
@@ -366,7 +365,7 @@
 
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/woman-8.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/woman-8.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10  text-white rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -384,7 +383,7 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class=" text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class=" text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
@@ -396,7 +395,7 @@
 
           <div class="">
             <div class="img ">
-               <div class=" rounded-[5px] h-110 max-w-full  bg-[url(/imgs/man-02.png)] bg-cover pt-2  bg-no-repeat">
+               <div class=" rounded-[5px] h-110 max-w-full  bg-[url('../imgs/man-02.png')] bg-cover pt-2  bg-no-repeat">
                 <p class="pt-2 text-1xl w-24 h-10 text-white  rounded-2xl flex justify-end bg-amber-800 gap-4 float-end pr-2 mr-2"> 
                   <svg xmlns="http://www.w3.org/2000/svg"
                    fill="currentColor"
@@ -417,7 +416,7 @@
             <!-- </div> -->
             <div class="desciption w-78.75 h-22.5">
               <p class="text-gray-400">Product Category</p>
-              <a href="/Product Details/index.html"><p class=" text-[24px]">Product Name</p></a>
+              <a href="/pages/product-details.html"><p class=" text-[24px]">Product Name</p></a>
               <p class="text-gray-400">IDR XXX</p>
             </div>
           </div>
@@ -428,9 +427,9 @@
 
         <div class="pl-16">
           <div class="flex text-white bg-amber-900 h-auto max-w-45 rounded-md pt-2 text-2xl gap-2" >
-          <a href="./Product List/index.html">SEE MORE</a>
+          <a href="/pages/product-list.html">SEE MORE</a>
           <div class=" ">
-            <a href="./Product List/index.html">
+            <a href="/pages/product-list.html">
             <svg  xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24" 
@@ -520,7 +519,7 @@
 <div class="m-10 h-auto w-full mx-auto items-center ">
 <div class=" 
 h-[1050px]
-bg-[url(/imgs/woman-05.png)]
+bg-[url('../imgs/woman-05.png')]
 bg-cover
 bg-center
 bg-no-repeat
@@ -744,7 +743,7 @@ overflow-hidden
         <!-- Logo  -->
 
       <div class="w-[290px] h-auto [@media(max-width:600px)]:w-auto [@media(max-width:600px)]:flex [@media(max-width:600px)]:flex-col [@media(max-width:600px)]: gap-8 ">
-        <a href="">
+        <a href="/index.html">
           <p class=" font-bold text-[48px] [@media(max-width:600px)]:text-2xl [@media(max-width:600px)]:text-center [@media(max-width:600px)]:gap-6">Modeva</p>
         </a>
         <div class="flex gap-2">
